@@ -79,13 +79,18 @@ static void SearchbyID(List<Contact> contacts,int Id)
     foreach (Contact c in contacts)
     {
         if (c.ContactId == Id)
-            if (f1 == 0) {
+        {
+            if (f1 == 0)
+            {
                 Console.WriteLine("ID\tName\tEmail\tMobile\tLocation");
                 f1++;
             }
             Console.WriteLine($"{c.ContactId}\t{c.Name}\t{c.EmailId}\t{c.MobileNo}\t{c.Location}");
-        else {
-            if (f2 == 1) {
+        }
+        else
+        {
+            if (f2 == 1)
+            {
                 Console.WriteLine("Entered Id Doesn't exist in Contacts.");
                 f1++;
             }

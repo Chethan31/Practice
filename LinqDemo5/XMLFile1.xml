@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <Product>
+    <productid>1</productid>
+    <name>Dell XPS 13</name>
+    <price>90000</price>
+  </Product>
+  <Product>
+    <productid>2</productid>
+    <name>HP 430</name>
+    <price>50000</price>
+  </Product>
+  <Product>
+    <productid>3</productid>
+    <name>IPhone 6</name>
+    <price>80000</price>
+  </Product>
+  <Product>
+    <productid>4</productid>
+    <name>Galaxy S6</name>
+    <price>74000</price>
+  </Product>
+  <Product>
+    <productid>5</productid>
+    <name>IPad Pro</name>
+    <price>44000</price>
+  </Product>
+</Products>

@@ -1,4 +1,6 @@
-﻿namespace LanguageEnhancements
+﻿using System.Xml.Linq;
+
+namespace LanguageEnhancements
 {
     class Program
     {
@@ -139,7 +141,14 @@
             Console.WriteLine();
             //11. Save all products into XML document	
 
-
+            XDocument xml = new XDocument(new XElement("Products",
+                         from p in products 
+                         select new XElement("Product",
+                                    new XElement("productid",p.ProductID),
+                                    new XElement("name",p.Name),
+                                    new XElement("price",p.Price))
+            ));
+            xml.Save(@"C:\Users\rchethan\source\repos\Practice\LinqDemo5\XMLFile1.xml");
 
         }
 
