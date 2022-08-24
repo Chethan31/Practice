@@ -18,5 +18,10 @@ namespace EFDemo1.Data
         //Map the entity class to tables
 
         public DbSet<Contact> Contacts { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

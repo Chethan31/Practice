@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 
 namespace EFDemo1.Entities
 {
+   // [Table("tbl_contacts")]//for table name
     public class Contact
     {
+        //[Key]   //for primary key
+       // [DatabaseGenerated(DatabaseGeneratedOption.None)]  //to make non increment
         public int ContactID { get; set; }
         [Required]
         [MaxLength(50)]
@@ -21,5 +24,6 @@ namespace EFDemo1.Entities
         public string Mobile { get; set; }
         [MaxLength(50)]
         public string Location { get; set; }
+       // [NotMapped]   
     }
 }
