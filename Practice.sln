@@ -71,13 +71,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo5", "LinqDemo5\Linq
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Programming using EF", "Database Programming using EF", "{633C5431-1D89-45B6-AA10-FE0A26ED1DC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDemo1", "EFDemo1\EFDemo1.csproj", "{73429F19-D29C-48C4-9DD8-D2AC6D4A6F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFDemo1", "EFDemo1\EFDemo1.csproj", "{73429F19-D29C-48C4-9DD8-D2AC6D4A6F7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqDemo6", "LinqDemo6\LinqDemo6.csproj", "{C52AC358-3EE0-43A0-AC73-5348F242E6D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDemo6", "LinqDemo6\LinqDemo6.csproj", "{C52AC358-3EE0-43A0-AC73-5348F242E6D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{5C4AF153-4A03-43C9-B1A4-8360FA57B34F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApp", "ProductCatalogApp\ProductCatalogApp.csproj", "{B756C3F3-F42D-48A0-8915-D3C13A8DD970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogApp", "ProductCatalogApp\ProductCatalogApp.csproj", "{B756C3F3-F42D-48A0-8915-D3C13A8DD970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Pattern Lab", "Design Pattern Lab", "{D6588F19-8F83-4699-8CD1-A490236BAFA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathProblemOfTwoNumbers", "DesignPatternLab\MathProblemOfTwoNumbers\MathProblemOfTwoNumbers.csproj", "{ECF883AE-EF11-4DA8-80D8-A55EE1F6960D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +201,10 @@ Global
 		{B756C3F3-F42D-48A0-8915-D3C13A8DD970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B756C3F3-F42D-48A0-8915-D3C13A8DD970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B756C3F3-F42D-48A0-8915-D3C13A8DD970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF883AE-EF11-4DA8-80D8-A55EE1F6960D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF883AE-EF11-4DA8-80D8-A55EE1F6960D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF883AE-EF11-4DA8-80D8-A55EE1F6960D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF883AE-EF11-4DA8-80D8-A55EE1F6960D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,6 +235,7 @@ Global
 		{73429F19-D29C-48C4-9DD8-D2AC6D4A6F7E} = {633C5431-1D89-45B6-AA10-FE0A26ED1DC3}
 		{C52AC358-3EE0-43A0-AC73-5348F242E6D2} = {02A0AC34-8D0C-440D-9305-A37E724D2D6E}
 		{B756C3F3-F42D-48A0-8915-D3C13A8DD970} = {633C5431-1D89-45B6-AA10-FE0A26ED1DC3}
+		{ECF883AE-EF11-4DA8-80D8-A55EE1F6960D} = {D6588F19-8F83-4699-8CD1-A490236BAFA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE2E9F58-7C10-40E0-A01A-30D52B46C384}
